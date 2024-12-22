@@ -5,4 +5,4 @@ jobs:
   this-is-job-1:
     runs-on: ubuntu-latest
     steps: 
-      - run: github variable is passed into github action automatically.
+      - run: echo "github variable is passed into github action automatically."
