@@ -1,6 +1,6 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} ${{ github.rest.issues }} $(pwd)is $((1+2)) testing out GitHub Actions ${{ github.event_name }}🚀
-on: [push]
+on: [push,workflow_dispatch]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
