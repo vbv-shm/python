@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} ${{ github.rest.issues }} $(pwd)is testing out GitHub Actions ${{ github.event_name }}🚀
+run-name: ${{ github.actor }} ${{ github.rest.issues }} $(pwd)is $(( 1+2 ))testing out GitHub Actions ${{ github.event_name }}🚀
 on: [push]
 jobs:
   Explore-GitHub-Actions:
